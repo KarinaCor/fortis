@@ -1,0 +1,27 @@
+[{ 
+ "id" : 1,
+  "href" : "#",
+  "title" : "Distribuție de materiale de construcție",
+  "text" : "Indiferent dacă sunteți o companie de construcții în căutare de materiale de încredere sau un depozit care dorește să ofere clienților produse de calitate superioară, distribuția Fortis este răspunsul."
+
+},
+{ 
+ "id" : 2,
+  "href" : "#",
+  "title" : "Producție profile din tablă ambutisată",
+  "text" : "De la profile structurale robuste, folosite în proiecte industriale, la cele mai rafinate modele pentru proiecte rezidențiale, producem o gamă diversă care răspunde nevoilor variate ale clienților noștri."
+
+},
+{ 
+ "id" : 3,
+  "href" : "#",
+  "title" : "Producție containere",
+  "text" : "Fie că sunt destinate utilizării comerciale, birourilor mobile, spațiilor de depozitare sau chiar locuințelor modulare, containerele noastre sunt construite pentru a rezista la cerințele complexe ale diverselor proiecte."
+
+},
+{ 
+ "id" : 4,
+  "href" : "#",
+  "title" : "Producție case modulare",
+  "text" : "Casele noastre modulare din containere sunt o expresie a flexibilității și adaptabilității în construcții. Designul modular permite personalizarea fiecărui spațiu, oferind o gamă diversă de opțiuni."
+}]

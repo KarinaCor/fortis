@@ -1,0 +1,32 @@
+[{ 
+ "id" : 1,
+  "href" : "/",
+  "title" : "ACASA"
+  
+},
+{ 
+ "id" : 2,
+  "href" : "/articles",
+  "title" : "DESPRE NOI"
+ 
+
+},
+{ 
+ "id" : 3,
+  "href" : "/about",
+  "title" : "PRODUSE"
+   
+
+},
+{ 
+ "id" : 4,
+  "href" : "/shop",
+  "title" : "COMENZI"
+ 
+},
+{ 
+ "id" : 5,
+  "href" : "/contact",
+  "title" : "CONTACT"
+
+}]

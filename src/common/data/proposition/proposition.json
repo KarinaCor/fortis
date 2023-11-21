@@ -1,0 +1,22 @@
+[{ 
+ "id" : 1,
+  "href" : "#",
+  "title" : "Calitate Superioară",
+  "text" : "Ne angajăm să aducem pe piață doar produse de cea mai înaltă calitate, satisfăcând cele mai exigente standarde."
+
+},
+{ 
+ "id" : 2,
+  "href" : "#",
+  "title" : "Parteneriate Strategice",
+  "text" : "Prin parteneriatele noastre strategice cu producători de top, vă garantăm acces la cele mai noi și diverse produse."
+
+},
+{ 
+ "id" : 3,
+  "href" : "#",
+  "title" : "Sustenabilitate",
+  "text" : "Suntem dedicați mediului înconjurător și oferim opțiuni sustenabile pentru proiectele dumneavoastră de construcții."
+
+}
+]
