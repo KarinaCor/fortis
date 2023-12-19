@@ -1,11 +1,24 @@
+import { Introducing } from "./components/AboutUs/AboutUs";
+import { DespreHero } from "./components/DespreHero/DespreHero";
+import { DespreIntroducing } from "./components/DespreIntroducing/DespreIntroducing";
+import { DespreOffers } from "./components/DespreOffers/DespreOffers";
+import { NewHorizonts } from "./components/NewHorizonts/NewHorizonts";
+import { OurValues } from "./components/OurValues/OurValues";
+import { Reviews } from "./components/Reviews/Reviews";
 
 
  const DespreNoi = () => {
     return (
         <>
-           <h1>DespreNoi</h1>
+        <DespreHero/>
+      <DespreIntroducing />
+      <Introducing/>
+      <OurValues/>
+      <NewHorizonts/>
+      <DespreOffers/>
+      <Reviews/>
+      
         </>
-       
 
     )
 }

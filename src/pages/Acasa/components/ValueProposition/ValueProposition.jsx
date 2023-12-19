@@ -1,4 +1,5 @@
 import { usePropositin } from "../../../../common/components/hooks/useProposition";
+import { ICON, IMG } from "../../../../images";
 import * as SC from "../ValueProposition/ValueProposition.styled";
 
 export const ValueProposition = () => {
@@ -6,8 +7,10 @@ export const ValueProposition = () => {
   return (
     <>
       <SC.Wrapper>
+      <SC.HeadingTitle>BENEFICII</SC.HeadingTitle>
         <SC.Span>De ce noi?</SC.Span>
         <SC.Title>De ce sa alegi Fortis?</SC.Title>
+        <SC.Line></SC.Line>
         <SC.Descrp>
           Fortis nu este doar un furnizor de materiale de construcții. Suntem
           partenerul dumneavoastră de încredere pentru inovație și succes. Prin
@@ -20,12 +23,12 @@ export const ValueProposition = () => {
           <SC.List>
             {proposition.map(({ id, href, title, text }) => (
               <SC.Item key={id}>
-                <svg></svg>
+                <SC.ImgI src={ICON.icon} alt='icon'/>
                 <SC.Headline>{title}</SC.Headline>
                 <SC.Text>{text}</SC.Text>
               </SC.Item>
             ))}
-            <SC.Img></SC.Img>
+            <SC.Img src={IMG.worker} alt='worker' />
           </SC.List>
         </SC.Blocks>
       </SC.Wrapper>

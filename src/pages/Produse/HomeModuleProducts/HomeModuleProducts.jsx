@@ -23,7 +23,7 @@ export const ContainerProducts = () => {
           opțiuni pentru cei care caută o locuință unică și modernă.
         </SC.Descrp>
 
-        <img></img>
+        <SC.Img></SC.Img>
       </SC.Wrapper>
     </>
   );

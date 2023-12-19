@@ -29,7 +29,7 @@ export const ContainerProducts = () => {
           remarcabilă.
         </SC.Descrp>
 
-        <img></img>
+        <SC.Img></SC.Img>
       </SC.Wrapper>
     </>
   );

@@ -16,7 +16,7 @@ export const SheetProfile = () => {
           cu precizie și conform celor mai înalte standarde de calitate.
         </SC.Descrp>
        
-        <img></img>
+        <SC.Img></SC.Img>
       </SC.Wrapper>
     </>
   );

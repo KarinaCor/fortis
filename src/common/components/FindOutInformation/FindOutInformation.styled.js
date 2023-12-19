@@ -1,16 +1,19 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-
+padding-left: 10px;
+padding-top: 60px;
 `
 
 
 export const Title = styled.h2`
-color: #7b7c7c;
+color: #FFFF;
+font-size: 30px;
 `
 
 export const Descrp = styled.p`
-color: #7b7c7c;
+color: #FFFF;
+font-size: 16px;
 `
 
 export const Button = styled.button`
@@ -23,6 +26,9 @@ color: #FFFFFF;
 background-color: #A70101;
 border-radius: 2px 2px 2px 2px;
 padding: 15px 30px;
+margin-bottom: 15px;
+margin-top: 25px;
+
 `
 
 

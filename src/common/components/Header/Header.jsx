@@ -13,8 +13,8 @@ export const Header = () => {
       <SC.Header>
         <SC.Logo>
           <SC.LogoLink>
-            FORTIS
-            <img src={IMG.logo} width="30" height="30" />
+            
+            <img src={IMG.logo} width="190" height="57" />
           </SC.LogoLink>
         </SC.Logo>
 

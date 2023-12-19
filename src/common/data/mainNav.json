@@ -6,27 +6,27 @@
 },
 { 
  "id" : 2,
-  "href" : "/articles",
+  "href" : "despreNoi",
   "title" : "DESPRE NOI"
  
 
 },
 { 
  "id" : 3,
-  "href" : "/about",
+  "href" : "produse",
   "title" : "PRODUSE"
    
 
 },
 { 
  "id" : 4,
-  "href" : "/shop",
+  "href" : "comenzi",
   "title" : "COMENZI"
  
 },
 { 
  "id" : 5,
-  "href" : "/contact",
+  "href" : "contact",
   "title" : "CONTACT"
 
 }]

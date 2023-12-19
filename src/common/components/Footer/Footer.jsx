@@ -1,3 +1,4 @@
+import { IMG } from "../../../images";
 import * as SC from "./Footer.styled"
 
 export const Footer = () => {
@@ -5,10 +6,8 @@ export const Footer = () => {
     <>
       <SC.Wrapper>
         <SC.LogoWrap>
-          <svg></svg>
-          <svg></svg>
-          <svg></svg>
-          <svg></svg>
+        <SC.Img src={IMG.footerLogo}  />
+          
         </SC.LogoWrap>
         <SC.CompanieWrap>
           <SC.List>

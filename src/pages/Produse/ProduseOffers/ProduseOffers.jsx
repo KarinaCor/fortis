@@ -1,6 +1,6 @@
-import * as SC from "../ProduceOffers/ProduceOffers.styled";
+import * as SC from "./ProduseOffers.styled";
 
-export const ProduceOffers = () => {
+export const ProduseOffers = () => {
   return (
     <>
       <SC.Wrapper>

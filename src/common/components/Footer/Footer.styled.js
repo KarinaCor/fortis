@@ -1,10 +1,18 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
+background-color: #414141;
 
 `
 
 export const LogoWrap = styled.div`
+
+`
+
+export const Img = styled.img`
+width: 160px;
+height: 160px;
+padding-top: 30px;
 
 `
 

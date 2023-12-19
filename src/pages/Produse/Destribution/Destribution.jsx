@@ -20,7 +20,7 @@ export const Destribution = () => {
           Construim parteneriate solide și susținem dezvoltarea durabilă, punând
           pe primul loc nevoile clienților noștri.
         </SC.Descrp>
-        <img></img>
+        <SC.Img></SC.Img>
       </SC.Wrapper>
     </>
   );
