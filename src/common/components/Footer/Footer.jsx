@@ -9,7 +9,10 @@ export const Footer = () => {
         <SC.Img src={IMG.footerLogo}  />
           
         </SC.LogoWrap>
+        
+        <SC.Blocks>
         <SC.CompanieWrap>
+        <SC.Title>Companie</SC.Title>
           <SC.List>
             <SC.Item>Despre Noi</SC.Item>
             <SC.Item>Produse</SC.Item>
@@ -17,7 +20,9 @@ export const Footer = () => {
             <SC.Item>Politica de Cookies</SC.Item>
           </SC.List>
         </SC.CompanieWrap>
+        
         <SC.ContactWrap>
+        <SC.Title>CONTACT</SC.Title>
             <SC.List>
             <SC.Item>PARCUL IMM Slobozia</SC.Item>
           <SC.Item>
@@ -30,6 +35,8 @@ export const Footer = () => {
           
           <SC.Button>CONTACT</SC.Button>
         </SC.ContactWrap>
+        </SC.Blocks>
+        
       </SC.Wrapper>
     </>
   );

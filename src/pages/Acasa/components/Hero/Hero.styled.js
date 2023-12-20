@@ -1,17 +1,30 @@
 import styled from "styled-components";
-import { IMG } from "../../../../images";
+
 
 export const Wrapper = styled.div`
-  /* background-image: url(IMG.heroImage) */
+  background-color: red;
+  background-position: 61% 0%;
+  background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 518px;
+    padding-left: 10px;
 `;
 
 export const MainTitle = styled.h1`
   padding: 0;
   margin: 0;
-  color: black;
+  color: #FFFF;
+  font-size: 40px;
+  padding-top: 80px;
+  padding-bottom: 40px;
 `;
 
-export const Descr = styled.p``;
+export const Descr = styled.p`
+color: #FFFF;
+font-size: 18px;
+padding-bottom: 70px;
+`
 
 export const Button = styled.button`
   background-color: #a70101;

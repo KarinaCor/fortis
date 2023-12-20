@@ -2,7 +2,13 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 padding-left: 10px;
-padding-top: 60px;
+padding-top: 10px;
+background-position: 61% 0%;
+  background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #7B7C7C;
+    min-height: 445px;
 `
 
 
@@ -14,6 +20,9 @@ font-size: 30px;
 export const Descrp = styled.p`
 color: #FFFF;
 font-size: 16px;
+line-height: 1.5;
+padding-top: 20px;
+padding-bottom: 80px;
 `
 
 export const Button = styled.button`
@@ -26,8 +35,11 @@ color: #FFFFFF;
 background-color: #A70101;
 border-radius: 2px 2px 2px 2px;
 padding: 15px 30px;
-margin-bottom: 15px;
-margin-top: 25px;
+margin: 0 auto;
+/* margin-top: 25px; */
+line-height: 1;
+
+display: flex;
 
 `
 

@@ -5,7 +5,7 @@ import * as SC from "./FindOutInformation.styled";
 export const FindOutInformation = () => {
   return (
     <>
-      <SC.Wrapper style={{ backgroundImage: `url(${IMG.constructionWorker })` }}>
+      <SC.Wrapper style={{ backgroundImage: `url(${IMG.constructionWorker })`  }}>
         <SC.Title>Ai o întrebare?</SC.Title>
         <SC.Descrp>
           Suntem aici pentru a vă ajuta! Avem răspunsuri la toate întrebările

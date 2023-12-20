@@ -13,7 +13,7 @@ export const HamburgerButton = () => {
   return (
     <>
       <SC.MenuButton onClick={toogleModal}>
-        <RxHamburgerMenu />
+        <RxHamburgerMenu width="28" height="28"/>
       </SC.MenuButton>
       {burger && <SideMenu toogleModal={toogleModal} />}
     </>

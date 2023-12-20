@@ -3,13 +3,13 @@ import styled from 'styled-components'
 export const Header = styled.div`
 justify-content: space-between;
     
-    padding: 0 20px;
+    height: 80px;
+    padding-left: 10px;
     display: flex;
 `
 
 export const Logo = styled.div`
-    padding-top: 27px;
-    padding-bottom: 75px;
+  padding-top: 10px;
     display: flex;
 `
 

@@ -14,7 +14,7 @@ export const Header = () => {
         <SC.Logo>
           <SC.LogoLink>
             
-            <img src={IMG.logo} width="190" height="57" />
+            <img src={IMG.logo} width="178" height="53" />
           </SC.LogoLink>
         </SC.Logo>
 
