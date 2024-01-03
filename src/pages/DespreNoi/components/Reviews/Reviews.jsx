@@ -6,8 +6,9 @@ export const Reviews = () => {
   return (
     <>
       <SC.Wrapper>
-        <SC.Span>Testimonialele </SC.Span>
+        <SC.Span>TESTIMONIALELE </SC.Span>
         <SC.Title>Ce spun clienții noștri despre noi</SC.Title>
+        <SC.Line></SC.Line>
         <SC.Descrp>
           La Fortis, apreciem în mod deosebit parerile și feedback-ul clienților
           noștri. Ele reprezintă o sursă inestimabilă de inspirație și

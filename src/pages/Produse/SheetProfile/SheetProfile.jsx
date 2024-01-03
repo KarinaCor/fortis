@@ -1,11 +1,14 @@
 import * as SC from "../SheetProfile/SheetProfile.styled";
+import { IMG } from "../../../images";
 
 export const SheetProfile = () => {
   return (
     <>
       <SC.Wrapper>
+        <SC.HeadingTitle>PROFILE</SC.HeadingTitle>
         <SC.Span>Profile din tablă ambutisată</SC.Span>
         <SC.Title>Despre producția noastră de profile:</SC.Title>
+        <SC.Line></SC.Line>
         <SC.Descrp>
           În facilitățile noastre de producție avansate, utilizăm tehnologii de
           ultimă generație. De la profile structurale robuste, folosite în
@@ -15,8 +18,8 @@ export const SheetProfile = () => {
           supervizată cu atenție pentru a asigura că fiecare profil este livrat
           cu precizie și conform celor mai înalte standarde de calitate.
         </SC.Descrp>
-       
-        <SC.Img></SC.Img>
+
+        <SC.Img src={IMG.produseDestribution} alt="introducing" />
       </SC.Wrapper>
     </>
   );

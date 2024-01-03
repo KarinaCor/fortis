@@ -4,6 +4,13 @@ export const Wrapper = styled.div`
 background-color: #414141;
 min-height: 578px;
 padding-left: 10px;
+@media(min-width: 768px){
+display: flex;
+align-content: space-between;
+gap: 90px;
+min-height: 350px;
+}
+
 `
 
 export const LogoWrap = styled.div`
@@ -15,12 +22,18 @@ width: 160px;
 height: 160px;
 padding-top: 30px;
 margin-left: auto;
-  margin-right: auto;
+margin-right: auto;
+@media(min-width: 768px){
+  padding-top: 50px;
+}
   
 `
 
 export const CompanieWrap = styled.div`
-
+@media(min-width: 768px){
+   padding-top: 50px;
+   margin-right: 60px;
+}
 `
 export const Title = styled.h2`
 font-size: 20px;
@@ -36,6 +49,7 @@ export const List = styled.ul`
 `
 
 export const Item = styled.li`
+list-style: none;
 font-size: 16px;
 color: #FFFF;
 margin-bottom: 17px;
@@ -47,7 +61,9 @@ export const Link = styled.a`
 `
 
 export const ContactWrap = styled.div`
-
+@media(min-width: 768px){
+   padding-top: 50px;
+}
 `
 
 export const Button = styled.button`

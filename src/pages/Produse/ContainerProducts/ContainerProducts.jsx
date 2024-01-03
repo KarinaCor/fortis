@@ -1,11 +1,14 @@
 import * as SC from "../ContainerProducts/ContainerProducts.styled";
+import { IMG } from "../../../images";
 
 export const ContainerProducts = () => {
   return (
     <>
       <SC.Wrapper>
+        <SC.HeadingTitle>CONTAINERE</SC.HeadingTitle>
         <SC.Span>Producție Containere</SC.Span>
         <SC.Title>Despre producția noastră de containere:</SC.Title>
+        <SC.Line></SC.Line>
         <SC.Descrp>
           Fie că sunt destinate utilizării comerciale, birourilor mobile,
           spațiilor de depozitare sau chiar locuințelor modulare, containerele
@@ -29,7 +32,7 @@ export const ContainerProducts = () => {
           remarcabilă.
         </SC.Descrp>
 
-        <SC.Img></SC.Img>
+        <SC.Img src={IMG.produseHero} alt="introducing" />
       </SC.Wrapper>
     </>
   );

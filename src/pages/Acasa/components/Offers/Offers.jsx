@@ -8,7 +8,7 @@ export const Offers = () => {
     <>
       <SC.Wrapper>
       <SC.HeadingTitle>PRODUSE</SC.HeadingTitle>
-        <SC.Span>Cele mai bune produse</SC.Span>
+        <SC.Span>CELE MAI BUNE PRODUSE</SC.Span>
         <SC.Title>Ce vă putem oferi?</SC.Title>
         <SC.Line></SC.Line>
         <SC.Descrp>

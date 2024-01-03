@@ -42,3 +42,25 @@ export const MenuLink = styled.a`
     background-position: 90% 50%;
   }
 `;
+
+export const Nav = styled.nav`
+    /* position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 25px;
+    padding-bottom: 40px; */
+`
+
+export const List = styled.ul`
+
+`
+
+export const Item = styled.li`
+
+`
+
+// export const LogoLink = styled.a`
+
+// `

@@ -1,16 +1,19 @@
 import { useAboutUs } from "../../../../common/components/hooks/useAboutUs";
 import * as SC from "../AboutUs/AboutUs.styled";
+import { IMG } from "../../../../images";
 
 export const Introducing = () => {
   const aboutUs = useAboutUs();
   return (
     <>
       <SC.Wrapper>
-        <SC.Span>Cine suntem</SC.Span>
+        <SC.HeadingTitle>FORTIS</SC.HeadingTitle>
+        <SC.Span>CINE SUNTEM</SC.Span>
         <SC.Title>
           Partenerul Dumneavoastră de Încredere în Construcții și Soluții
           Inovatoare!
         </SC.Title>
+        <SC.Line></SC.Line>
         <SC.Descrp>
           Fortis este rezultatul unei pasiuni comune pentru construcții,
           inovație și performanță. Am pornit la drum cu un obiectiv simplu: să
@@ -24,12 +27,10 @@ export const Introducing = () => {
                 <SC.Text>{text}</SC.Text>
               </SC.Item>
             ))}
-            <SC.Img></SC.Img>
+            
           </SC.List>
         </SC.Blocks>
-        <svg width="29" height="25">
-          <use href=""></use>
-        </svg>
+        <SC.Img src={IMG.despreAboutUs} alt="introducing" />
       </SC.Wrapper>
     </>
   );

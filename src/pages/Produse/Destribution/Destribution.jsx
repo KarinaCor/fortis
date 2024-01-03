@@ -1,11 +1,14 @@
 import * as SC from "../Destribution/Destribution.styled";
+import { IMG } from '../../../images'
 
 export const Destribution = () => {
   return (
     <>
       <SC.Wrapper>
+        <SC.HeadingTitle>PRODUSE</SC.HeadingTitle>
         <SC.Span>Distribuție de materiale de construcție</SC.Span>
         <SC.Title>Apelează la Fortis cu încredere!?</SC.Title>
+        <SC.Line></SC.Line>
         <SC.Descrp>
           Cu o rețea extinsă de parteneriate strategice și o expertiză solidă în
           domeniu, asigurăm distribuția eficientă a unei game variate de
@@ -20,7 +23,7 @@ export const Destribution = () => {
           Construim parteneriate solide și susținem dezvoltarea durabilă, punând
           pe primul loc nevoile clienților noștri.
         </SC.Descrp>
-        <SC.Img></SC.Img>
+        <SC.Img src={IMG.produseDestribution} alt="introducing" />
       </SC.Wrapper>
     </>
   );

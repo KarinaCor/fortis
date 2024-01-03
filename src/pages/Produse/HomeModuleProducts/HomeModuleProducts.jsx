@@ -1,11 +1,14 @@
 import * as SC from "../HomeModuleProducts/HomeModuleProducts.styled";
+import { IMG } from "../../../images";
 
-export const ContainerProducts = () => {
+export const HomeModuleProducts = () => {
   return (
     <>
       <SC.Wrapper>
+        <SC.HeadingTitle>CASE MODELARE</SC.HeadingTitle>
         <SC.Span>Producție Case Modulare</SC.Span>
         <SC.Title>Despre producția noastră de case modulare:</SC.Title>
+        <SC.Line></SC.Line>
         <SC.Descrp>
           Transformăm containerele în opere de artă arhitecturală, oferind
           soluții inovatoare pentru locuințe contemporane sau spații de birouri.
@@ -23,7 +26,7 @@ export const ContainerProducts = () => {
           opțiuni pentru cei care caută o locuință unică și modernă.
         </SC.Descrp>
 
-        <SC.Img></SC.Img>
+        <SC.Img src={IMG.produseModule} alt="introducing" />
       </SC.Wrapper>
     </>
   );

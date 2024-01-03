@@ -9,12 +9,29 @@ background-position: 61% 0%;
     position: relative;
     background-color: #7B7C7C;
     min-height: 445px;
+    @media(min-width: 768px){
+      min-height: 383px;
+      display: flex;
+      gap: 60px;
+    }
+`
+
+export const LeftBlock = styled.div`
+
+`
+
+export const RightBlock = styled.div`
+align-content: center;
+
 `
 
 
 export const Title = styled.h2`
 color: #FFFF;
 font-size: 30px;
+ @media(min-width: 768px){
+  padding-top: 40px;
+ }
 `
 
 export const Descrp = styled.p`
@@ -40,6 +57,10 @@ margin: 0 auto;
 line-height: 1;
 
 display: flex;
+@media(min-width: 768px){
+  margin-right: 20px;
+  
+}
 
 `
 

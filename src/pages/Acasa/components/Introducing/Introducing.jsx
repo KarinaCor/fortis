@@ -5,8 +5,9 @@ export const Introducing = () => {
   return (
     <>
       <SC.Wrapper>
+        <SC.Block>
         <SC.HeadingTitle>DESPRE NOI</SC.HeadingTitle>
-        <SC.Span>Bun Venit!</SC.Span>
+        <SC.Span>BUN VENIT!</SC.Span>
         <SC.Title>Câteva cuvinte despre noi</SC.Title>
         <SC.Line></SC.Line>
         <SC.Descrp>
@@ -15,6 +16,8 @@ export const Introducing = () => {
           crea împreună un viitor în care construcțiile nu sunt doar structuri,
           ci opere de artă funcționale.
         </SC.Descrp>
+        </SC.Block>
+       
        <SC.Img src={IMG.introducingImage} alt='introducing' />
       </SC.Wrapper>
     </>

@@ -4,7 +4,7 @@ import { HamburgerButton } from "../HamburgerButton/HamburgerButton";
 import { SideMenu } from "../SideMenu/SideMenu";
 import { IMG } from "../../../images";
 
-let innerWidth = window.innerWidth >= 768;
+let innerWidth = window.innerWidth >= 1200;
 
 export const Header = () => {
   console.log(innerWidth);
@@ -14,7 +14,7 @@ export const Header = () => {
         <SC.Logo>
           <SC.LogoLink>
             
-            <img src={IMG.logo} width="178" height="53" />
+            <img src={IMG.logo} width="178" height="53" alt="logo"/>
           </SC.LogoLink>
         </SC.Logo>
 
