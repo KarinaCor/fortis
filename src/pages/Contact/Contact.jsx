@@ -1,13 +1,13 @@
+import { Address } from "./components/Address/Address";
+import { ContactHero } from "./components/ContactHero/ContactHero";
 
-
- const Contact = () => {
-    return (
-        <>
-           <h1>Contact</h1>
-        </>
-       
-
-    )
-}
+const Contact = () => {
+  return (
+    <>
+      <ContactHero />
+      <Address />
+    </>
+  );
+};
 
 export default Contact;

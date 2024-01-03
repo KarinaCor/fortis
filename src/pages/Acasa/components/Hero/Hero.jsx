@@ -1,7 +1,6 @@
 import * as SC from "./Hero.styled";
 import { IMG } from "../../../../images";
 
-
 export const Hero = () => {
   return (
     <>
@@ -18,4 +17,3 @@ export const Hero = () => {
     </>
   );
 };
-

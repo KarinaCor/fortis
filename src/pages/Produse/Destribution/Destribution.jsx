@@ -1,5 +1,5 @@
 import * as SC from "../Destribution/Destribution.styled";
-import { IMG } from '../../../images'
+import { IMG } from "../../../images";
 
 export const Destribution = () => {
   return (

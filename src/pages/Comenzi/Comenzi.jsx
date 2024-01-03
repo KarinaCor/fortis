@@ -1,10 +1,11 @@
+import { ComenziHero } from "./components/ComenziHero/ComenziHero";
 
 
  const Comenzi = () => {
     return (
-        <>
-           <h1>Comenzi</h1>
-        </>
+      <>
+      <ComenziHero/>
+      </>
        
 
     )

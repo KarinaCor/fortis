@@ -27,7 +27,6 @@ export const Introducing = () => {
                 <SC.Text>{text}</SC.Text>
               </SC.Item>
             ))}
-            
           </SC.List>
         </SC.Blocks>
         <SC.Img src={IMG.despreAboutUs} alt="introducing" />
