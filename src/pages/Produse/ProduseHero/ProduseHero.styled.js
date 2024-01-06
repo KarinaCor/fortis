@@ -1,19 +1,27 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
- background-position: 61% 0%;
+  background-position: 61% 0%;
   background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    min-height: 300px;
-    padding-left: 10px;
-`
+  background-size: cover;
+  opacity: 0.7;
+
+  position: relative;
+  min-height: 300px;
+  padding-left: 10px;
+  background-color: gray;
+  background-position: center center;
+  /* transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
+  @media (min-width: 768px) {
+   text-align: center;
+  }
+`;
 
 export const Title = styled.h1`
-font-size: 44px;
-color: #fff;
-margin: 0 auto;
-text-align: center;
-align-items: center;
-
-`
+  font-size: 44px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding-top: 120px;
+`;

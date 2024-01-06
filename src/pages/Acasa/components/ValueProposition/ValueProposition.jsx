@@ -1,6 +1,7 @@
 import { usePropositin } from "../../../../common/components/hooks/useProposition";
 import { ICON, IMG } from "../../../../images";
 import * as SC from "../ValueProposition/ValueProposition.styled";
+import { FaCheckCircle } from "react-icons/fa";
 
 export const ValueProposition = () => {
   const proposition = usePropositin();
@@ -9,7 +10,7 @@ export const ValueProposition = () => {
       <SC.Wrapper>
         <SC.RightBlock>
           <SC.HeadingTitle>BENEFICII</SC.HeadingTitle>
-          <SC.Span>De ce noi?</SC.Span>
+          <SC.Span>DE CE NOI?</SC.Span>
           <SC.Title>De ce sa alegi Fortis?</SC.Title>
           <SC.Line></SC.Line>
           <SC.Descrp>
@@ -24,8 +25,8 @@ export const ValueProposition = () => {
           <SC.List>
             {proposition.map(({ id, href, title, text }) => (
               <SC.Item key={id}>
-                <SC.ImgI src={ICON.icon} alt="icon" />
                 <SC.Div>
+                  <FaCheckCircle fill="#A70101" size={35} />
                   <SC.Headline>{title}</SC.Headline>
                   <SC.Text>{text}</SC.Text>
                 </SC.Div>

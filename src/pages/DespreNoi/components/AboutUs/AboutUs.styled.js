@@ -5,6 +5,16 @@ export const Wrapper = styled.div`
   margin-top: 60px;
   padding-right: 10px;
   background-color: #f9f9f9;
+  @media (min-width: 768px) {
+    display: flex;
+   padding-bottom: 20px;
+  }
+`;
+
+export const RightSide = styled.div`
+  @media (min-width: 768px) {
+    order: 2;
+  }
 `;
 
 export const HeadingTitle = styled.h3`
@@ -12,17 +22,26 @@ export const HeadingTitle = styled.h3`
   font-size: 25px;
   font-weight: 900;
   margin-bottom: 15px;
+  @media (min-width: 768px) {
+    margin-top: 10px;
+  }
 `;
 
 export const Span = styled.h3`
   color: #a70101;
   margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 17px;
 `;
 
 export const Title = styled.h2`
   color: #7b7c7c;
   font-size: 30px;
   margin-bottom: 25px;
+  @media (min-width: 768px) {
+    padding-right: 20px;
+    font-size: 32px;
+  }
 `;
 
 export const Line = styled.span`
@@ -37,7 +56,7 @@ export const Line = styled.span`
 `;
 
 export const Descrp = styled.p`
-  font-size: 19px;
+  font-size: 17px;
   color: #7a7a7a;
   margin-top: 15px;
   line-height: 1.2;
@@ -54,9 +73,11 @@ export const Item = styled.li`
 
 export const Text = styled.h3`
   line-height: 1.2;
-  font-size: 19px;
+  font-size: 17px;
   color: #7a7a7a;
   margin-bottom: 15px;
+  font-weight: 500;
+ 
 `;
 
 export const Img = styled.img`
@@ -64,4 +85,12 @@ export const Img = styled.img`
   height: 250px;
   margin-top: 14px;
   padding-bottom: 90px;
+  @media (min-width: 768px) {
+    min-width: 350px;
+    margin-right: 20px;
+    min-height: 500px;
+    padding-bottom: 0px;
+    align-content: center;
+    margin-top: 120px;
+  }
 `;

@@ -68,16 +68,15 @@ export const ContactWrap = styled.div`
 
 export const Button = styled.button`
   font-family: "Nunito Sans", Sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
-    color: #FFFFFF;
-    background-color: #A70101;
-    border-radius: 2px 2px 2px 2px;
-    padding: 9px 18px;
-    text-decoration: none;
-    /* position: absolute;
-    bottom: 0; */
-`
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+  background-color: #a70101;
+  border-radius: 2px 2px 2px 2px;
+  padding: 9px 18px;
+  text-decoration: none;
+  border-style: none;
+`;
 

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  /* background-color: black;
-    opacity: 0.6;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
+  background-color: grey;
+    opacity: 0.7;
+ 
   background-position: 61% 0%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
 export const MainTitle = styled.h1`
   padding: 0;
   margin: 0;
-  /* color: #FFFF; */
+  color: #FFFF;
   font-size: 40px;
   padding-top: 80px;
   padding-bottom: 40px;
@@ -37,7 +37,8 @@ export const MainTitle = styled.h1`
 `;
 
 export const Descr = styled.p`
-  /* color: #FFFF; */
+font-weight: 600;
+color: #fff;
   font-size: 18px;
   padding-bottom: 70px;
   line-height: 1.1;
@@ -66,4 +67,10 @@ export const Button = styled.button`
   box-shadow: none;
   text-decoration: none;
   line-height: 1;
+  border-style: none;
+  @media (min-width: 768px) {
+    position: absolute;
+    right: 300px;
+    bottom: 115px;
+  }
 `;

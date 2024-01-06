@@ -17,7 +17,8 @@ export const Span = styled.span`
   color: #a70101;
   margin-bottom: 20px;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 17px;
+  font-weight: 500;
 `;
 
 export const Title = styled.h2`
@@ -25,6 +26,9 @@ export const Title = styled.h2`
   color: #7b7c7c;
   font-size: 30px;
   margin-bottom: 25px;
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
 `;
 
 export const Line = styled.span`

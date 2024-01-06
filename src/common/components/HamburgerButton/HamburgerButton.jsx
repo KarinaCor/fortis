@@ -13,9 +13,10 @@ export const HamburgerButton = () => {
   return (
     <>
       <SC.MenuButton onClick={toogleModal}>
-        <RxHamburgerMenu width="28" height="28"/>
+        <RxHamburgerMenu size={30}/>
       </SC.MenuButton>
       {burger && <SideMenu toogleModal={toogleModal} />}
     </>
   );
 };
+ 

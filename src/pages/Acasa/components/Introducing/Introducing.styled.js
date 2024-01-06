@@ -33,21 +33,25 @@ font-size: 30px;
 `
 
 export const Span = styled.h3`
-color: #A70101;
-margin-bottom: 20px;
-@media(min-width: 1280px) {
-font-size: 16px;
-}
-`
+  color: #a70101;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  @media (min-width: 1280px) {
+  }
+`;
 
 export const Title = styled.h2`
-color: #7b7c7c;
-font-size: 33px;
-margin-bottom: 25px;
-@media(min-width: 1280px) {
-font-size: 38px;
-}
-`
+  color: #7b7c7c;
+  font-size: 30px;
+  margin-bottom: 25px;
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 38px;
+  }
+`;
 
 export const Line = styled.span`
 border-top: 3px solid #A70101;
@@ -61,7 +65,7 @@ margin: 0;
 `
 
 export const Descrp = styled.p`
-font-size: 19px;
+font-size: 17px;
 color: #7a7a7a;
 margin-top: 15px;
 line-height: 1.2;

@@ -7,6 +7,12 @@ export const Wrapper = styled.div`
   position: relative;
   min-height: 300px;
   padding-left: 10px;
+  @media (min-width: 768px) {
+    min-height: 300px;
+    background-position: 91% 0%;
+    text-align: center;
+    
+  }
 `;
 
 export const Title = styled.h2`
@@ -14,4 +20,7 @@ export const Title = styled.h2`
   font-size: 44px;
   align-items: center;
   text-align: center;
+  @media (min-width: 768px) {
+    padding-top: 90px;
+  }
 `;

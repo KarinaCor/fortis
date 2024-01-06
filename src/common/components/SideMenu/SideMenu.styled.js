@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+export const MenuButtom = styled.div`
+background-color: red;
+`;
+
 export const Menu = styled.nav`
   position: absolute;
   top: 0px;

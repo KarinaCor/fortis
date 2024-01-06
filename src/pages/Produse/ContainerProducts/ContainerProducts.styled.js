@@ -14,19 +14,24 @@ font-weight: 900;
 margin-bottom: 15px;
 `
 export const Span = styled.span`
-color: #A70101;
-margin-bottom: 20px;
-text-transform: uppercase;
-font-size: 16px;
-`
+  color: #a70101;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+`;
 
 
 export const Title = styled.h2`
-margin-top: 25px;
-color: #7b7c7c;
-font-size: 30px;
-margin-bottom: 25px;
-`
+  margin-top: 25px;
+  color: #7b7c7c;
+  font-size: 30px;
+  margin-bottom: 25px;
+  padding-right: 10px;
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+`;
 
 export const Line = styled.span`
 border-top: 3px solid #A70101;

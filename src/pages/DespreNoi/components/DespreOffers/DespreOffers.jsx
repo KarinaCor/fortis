@@ -18,7 +18,7 @@ export const DespreOffers = () => {
           <SC.List>
             {offers.map(({ id, href, title }) => (
               <SC.Item key={id}>
-                <svg></svg>
+                <svg width={30} height={30}></svg>
                 <SC.Headline>{title}</SC.Headline>
                 <SC.Button to={href}>Vezi mai mult</SC.Button>
               </SC.Item>

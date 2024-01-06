@@ -25,15 +25,20 @@ margin-bottom: 15px;
 `
 
 export const Span = styled.h3`
-color: #A70101;
-margin-bottom: 20px;
-`
+  color: #a70101;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 500;
+`;
 
 export const Title = styled.h2`
-color: #7b7c7c;
-font-size: 30px;
-margin-bottom: 25px;
-`
+  color: #7b7c7c;
+  font-size: 30px;
+  margin-bottom: 25px;
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+`;
 
 export const Line = styled.span`
 border-top: 3px solid #A70101;
@@ -47,7 +52,7 @@ margin: 0;
 `
 
 export const Descrp = styled.p`
-font-size: 19px;
+font-size: 17px;
 color: #7a7a7a;
 margin-top: 15px;
 margin-bottom: 30px;
@@ -84,12 +89,12 @@ export const Div = styled.div`
 
 `
 
-export const ImgI = styled.img`
-width:35px;
-height:35px;
-margin-top: 40px;
+// export const ImgI = styled.img`
+// width:35px;
+// height:35px;
+// margin-top: 40px;
 
-`
+// `
 
 export const Headline = styled.h2`
 color: #7B7C7C;
@@ -103,9 +108,10 @@ color: #7B7C7C;
 `
 
 export const Text = styled.p`
-font-size: 19px;
+font-size: 16px;
 color: #7a7a7a;
-
+margin-bottom: 20px;
+padding-right: 25px;
 `
 
 export const Img= styled.img`

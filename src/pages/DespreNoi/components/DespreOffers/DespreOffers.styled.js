@@ -1,11 +1,15 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-padding-left: 10px;
-padding-top: 80px;
-padding-right: 10px;
-padding-bottom: 75px;
-`
+  padding-left: 10px;
+  padding-top: 80px;
+  padding-right: 10px;
+  padding-bottom: 75px;
+  @media (min-width: 768px) {
+    text-align: center;
+    padding-top: 10px;
+  }
+`;
 
 export const HeadingTitle = styled.h3`
 color: #F2F2F2;
@@ -17,13 +21,18 @@ margin-bottom: 15px;
 export const Span = styled.h3`
 color: #A70101;
 margin-bottom: 20px;
+font-size:17px;
+font-weight: 500;
 `
 
 export const Title = styled.h2`
-color: #7b7c7c;
-font-size: 30px;
-margin-bottom: 25px;
-`
+  color: #7b7c7c;
+  font-size: 30px;
+  margin-bottom: 25px;
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+`;
 
 export const Line = styled.span`
 border-top: 3px solid #A70101;
@@ -33,30 +42,43 @@ display: flex;
 margin: 0 auto;
 margin-top: 25px;
 @media(min-width: 768px) {
-margin: 0;
+
 }
 `
 
 export const Descrp = styled.p`
-font-size: 19px;
-color: #7a7a7a;
-margin-top: 15px;
-line-height: 1.2;
-margin-bottom: 30px;
-`
+  font-size: 17px;
+  color: #7a7a7a;
+  margin-top: 15px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  @media (min-width: 768px) {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+  }
+`;
 
 export const Blocks = styled.div`
-color: #7a7a7a;
-`
+  color: #7a7a7a;
+
+`;
 
 export const List = styled.ul`
-list-style: none;
-`
+  list-style: none;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+`;
 
 export const Item = styled.li`
-text-align: center;
-
-`
+  text-align: center;
+  @media (min-width: 768px) {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+`;
 
 export const Headline = styled.h2`
 color: #7B7C7C;
