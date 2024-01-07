@@ -1,5 +1,5 @@
 import { usePropositin } from "../../../../common/components/hooks/useProposition";
-import { ICON, IMG } from "../../../../images";
+import { IMG } from "../../../../images";
 import * as SC from "../ValueProposition/ValueProposition.styled";
 import { FaCheckCircle } from "react-icons/fa";
 
