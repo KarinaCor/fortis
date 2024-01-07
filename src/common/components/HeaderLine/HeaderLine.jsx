@@ -6,8 +6,6 @@ import { FaPhone } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { LuClock3 } from "react-icons/lu";
 
-// let innerWidth = window.innerWidth >= 1200;
-
 export const HeaderLine = () => {
   return (
     <>

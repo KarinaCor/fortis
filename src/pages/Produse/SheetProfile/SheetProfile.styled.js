@@ -1,10 +1,22 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-padding-left: 10px;
-padding-top: 40px;
-padding-right: 10px;
-`
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-right: 10px;
+  @media (min-width: 768px) {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+`;
+
+export const LeftSide = styled.div`
+  @media (min-width: 768px) {
+    order: 1;
+    padding: 10px 10px 10px 0;
+  }
+`;
 
 export const HeadingTitle = styled.h3`
 color: #F2F2F2;
@@ -44,17 +56,29 @@ margin: 0;
 `
 
 export const Descrp = styled.p`
-font-size: 17px;
-color: #7a7a7a;
-margin-top: 15px;
-line-height: 1.2;
-margin-bottom: 30px;
-margin-top: 25px;
-`
+  font-size: 17px;
+  color: #7a7a7a;
+  margin-top: 15px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  @media (min-width: 768px) {
+   padding-right: 25px;
+   line-height: 1.5;
+   margin-bottom: 0;
+  }
+`;
 
 export const Img = styled.img`
-width: 100%;
-height: 250px;
-margin-top: 14px;
-padding-bottom: 90px;
-`
+  width: 100%;
+  height: 250px;
+  margin-top: 14px;
+  padding-bottom: 90px;
+  @media (min-width: 768px) {
+    order: 2;
+    padding-left: 10px;
+    min-width: 420px;
+    min-height: 235px;
+   padding-top: 160px;
+  }
+`;

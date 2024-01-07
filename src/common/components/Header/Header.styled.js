@@ -9,6 +9,7 @@ justify-content: space-between;
     height: 80px;
     padding-left: 10px;
     display: flex;
+    z-index: 99;
 `
 
 export const Logo = styled.div`

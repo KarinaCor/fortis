@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   position: relative;
   min-height: 300px;
   padding-left: 10px;
+  opacity: 0.7;
   @media (min-width: 768px) {
     min-height: 300px;
     background-position: 91% 0%;

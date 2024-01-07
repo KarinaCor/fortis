@@ -1,4 +1,9 @@
 import styled from "styled-components";
+// import { FaStopwatch } from "react-icons/fa6";
+
+// export const StyledImg = styled(FaStopwatch)'
+
+// '
 
 export const Wrapper = styled.div`
   padding-left: 10px;

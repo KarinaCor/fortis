@@ -5,6 +5,18 @@ export const Wrapper = styled.div`
   padding-top: 40px;
   padding-right: 10px;
   background-color: #f9f9f9;
+  @media (min-width: 768px) {
+    display: flex;
+    padding-top: 10px;
+   
+  }
+`;
+
+export const RightSide = styled.div`
+  @media (min-width: 768px) {
+   order: 1;
+   padding-left: 10px;
+  }
 `;
 
 export const HeadingTitle = styled.h3`
@@ -56,4 +68,11 @@ export const Img = styled.img`
   height: 250px;
   margin-top: 14px;
   padding-bottom: 90px;
+  @media (min-width: 768px) {
+    min-width: 350px;
+    min-height: 500px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 `;

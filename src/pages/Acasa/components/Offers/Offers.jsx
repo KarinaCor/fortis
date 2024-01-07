@@ -18,6 +18,7 @@ export const Offers = () => {
         <SC.Blocks>
           <SC.List>
             {offers.map(({ id, href, title, text }) => (
+           
               <SC.Item key={id}>
                 <SC.Img src={ICON.icon} alt='icon'/>
                 <SC.Headline>{title}</SC.Headline>

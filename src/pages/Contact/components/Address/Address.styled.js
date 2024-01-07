@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   background-color: #f9f9f9;
   @media (min-width: 768px) {
     text-align: center;
+    padding-top: 100px;
   }
 `;
 
@@ -40,7 +41,7 @@ export const Line = styled.span`
   display: flex;
   margin: 0 auto;
   @media (min-width: 768px) {
-    margin: 0;
+   
   }
 `;
 
@@ -51,13 +52,17 @@ export const Descrp = styled.p`
   line-height: 1.2;
   margin-bottom: 30px;
   margin-top: 25px;
+  @media (min-width: 768px) {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 50px;
+  }
 `;
 
 export const Div = styled.div`
   @media (min-width: 768px) {
     display: flex;
-    justify-content: space-between;
-    row-gap: 10px;
+  text-align: center;
   }
 `;
 
@@ -65,11 +70,23 @@ export const Block = styled.div`
   height: 155px;
   background-color: #7b7c7c;
   margin-bottom: 10px;
+  @media (min-width: 768px) {
+   margin-right: 10px;
+   padding: 10px;
+   width: 235px;
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+  }
 `;
 
 export const HeadingTitle = styled.span`
   color: #fff;
   font-size: 16px;
+  @media (min-width: 768px) {
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
 `;
 
 export const Information = styled.h3`
@@ -79,4 +96,7 @@ export const Information = styled.h3`
   font-weight: 600;
   line-height: 1.2em;
   letter-spacing: 0.4px;
+  @media (min-width: 768px){
+  
+  }
 `;

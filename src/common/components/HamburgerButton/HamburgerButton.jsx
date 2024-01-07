@@ -15,7 +15,7 @@ export const HamburgerButton = () => {
       <SC.MenuButton onClick={toogleModal}>
         <RxHamburgerMenu size={30}/>
       </SC.MenuButton>
-      {burger && <SideMenu toogleModal={toogleModal} />}
+      <SideMenu toogleModal={toogleModal} burger = { burger} />
     </>
   );
 };

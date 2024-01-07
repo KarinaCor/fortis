@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   background-color: grey;
-    opacity: 0.7;
+    /* opacity: 0.7; */
  
   background-position: 61% 0%;
   background-repeat: no-repeat;

@@ -1,11 +1,22 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-padding-left: 10px;
-padding-top: 40px;
-padding-right: 10px;
-background-color: #F9F9F9;
-`
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-right: 10px;
+  background-color: #f9f9f9;
+  @media (min-width: 768px) {
+    display: flex;
+    padding-top: 10px;
+  }
+`;
+
+export const RightSide = styled.div`
+  @media (min-width: 768px) {
+    order: 1;
+    padding-left: 10px;
+  }
+`;
 
 export const HeadingTitle = styled.h3`
 color: #F2F2F2;
@@ -45,17 +56,27 @@ margin: 0;
 `
 
 export const Descrp = styled.p`
-font-size: 17px;
-color: #7a7a7a;
-margin-top: 15px;
-line-height: 1.2;
-margin-bottom: 30px;
-margin-top: 25px;
-`
+  font-size: 17px;
+  color: #7a7a7a;
+  margin-top: 15px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  @media (min-width: 768px) {
+  line-height: 1.3;
+  }
+`;
 
 export const Img = styled.img`
-width: 100%;
-height: 250px;
-margin-top: 14px;
-padding-bottom: 90px;
-`
+  width: 100%;
+  height: 250px;
+  margin-top: 14px;
+  padding-bottom: 90px;
+  @media (min-width: 768px) {
+    min-width: 350px;
+    min-height: 500px;
+    padding-right: 10px;
+    padding-top: 110px;
+   
+  }
+`;
