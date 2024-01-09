@@ -8,8 +8,14 @@ export const Wrapper = styled.div`
   background-color: #f9f9f9;
   @media (min-width: 768px) {
     display: flex;
-   padding-top: 90px;
-
+    padding-top: 90px;
+  }
+  @media (min-width: 1280px) {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+   
   }
 `;
 
@@ -17,7 +23,10 @@ export const LeftSide = styled.div`
   @media (min-width: 768px) {
     order: 1;
     margin-top: 80px;
-   
+  }
+  @media (min-width: 1280px) {
+   padding-right: 40px;
+   padding-left: 40px;
   }
 `;
 
@@ -27,9 +36,13 @@ export const Title = styled.h2`
   color: #7b7c7c;
   font-size: 30px;
   @media (min-width: 768px) {
-   margin-bottom: 20px;
-   font-size:32px;
-   padding-right: 15px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    padding-right: 15px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 38px;
+    padding-right: 150px;
   }
 `;
 
@@ -65,13 +78,14 @@ export const Img = styled.img`
   margin-top: 14px;
   padding-bottom: 70px;
   @media (min-width: 768px) {
-
     min-width: 350px;
     margin-right: 20px;
     min-height: 500px;
-    /* padding-bottom: 0px;
-    align-content: center;
-    margin-top: 120px; */
+  }
+  @media (min-width: 1280px) {
+    min-width: 550px;
+    padding-bottom: 10px;
+  
   }
 `;
 

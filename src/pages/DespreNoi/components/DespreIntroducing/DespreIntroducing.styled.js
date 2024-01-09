@@ -5,8 +5,12 @@ export const Wrapper = styled.div`
   padding-right: 10px;
   padding-top: 60px;
   @media (min-width: 768px) {
-   display: flex;
-   
+    display: flex;
+  }
+  @media (min-width: 1280px) {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
   }
 `;
 
@@ -17,11 +21,14 @@ export const Block = styled.div`
 `;
 
 export const HeadingTitle = styled.h3`
-color: #F2F2F2;
-font-size: 25px;
-font-weight: 900;
-margin-bottom: 15px;
-`
+  color: #f2f2f2;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  @media (min-width: 1280px) {
+    font-size: 30px;
+  }
+`;
 
 export const Span = styled.h3`
 color: #A70101;
@@ -37,6 +44,10 @@ export const Title = styled.h2`
   @media (min-width: 768px) {
     padding-right: 20px;
     font-size: 32px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 38px;
+    padding-right: 250px;
   }
 `;
 
@@ -56,7 +67,10 @@ export const Descrp = styled.p`
   color: #7a7a7a;
   margin-top: 15px;
   line-height: 1.2;
- 
+  @media (min-width: 1280px) {
+    
+    padding-right: 70px;
+  }
 `;
 
 export const Img = styled.img`
@@ -69,8 +83,8 @@ min-width: 381px;
 margin-top: 80px;
 }
 @media(min-width: 1280px) {
-min-width:635px;
-height:335px;
+min-width:595px;
+min-height:335px;
 
 }
 `

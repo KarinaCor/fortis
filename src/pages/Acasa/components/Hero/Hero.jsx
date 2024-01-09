@@ -12,7 +12,9 @@ export const Hero = () => {
           aducem pe piață soluții care nu doar satisfac, ci uimesc și depășesc
           orice așteptări.
         </SC.Descr>
-        <SC.Button>VEZI MAI MULT</SC.Button>
+        <SC.Div>
+          <SC.Button>VEZI MAI MULT</SC.Button>
+        </SC.Div>
       </SC.Wrapper>
     </>
   );

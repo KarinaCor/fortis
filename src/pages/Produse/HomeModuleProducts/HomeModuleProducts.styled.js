@@ -9,6 +9,11 @@ export const Wrapper = styled.div`
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  @media (min-width: 1280px) {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+  }
 `;
 
 export const LeftSide = styled.div`
@@ -19,11 +24,14 @@ export const LeftSide = styled.div`
 `;
 
 export const HeadingTitle = styled.h3`
-color: #F2F2F2;
-font-size: 25px;
-font-weight: 900;
-margin-bottom: 15px;
-`
+  color: #f2f2f2;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  @media (min-width: 1280px) {
+    font-size: 30px;
+  }
+`;
 export const Span = styled.span`
   color: #a70101;
   margin-bottom: 20px;
@@ -41,8 +49,12 @@ export const Title = styled.h2`
   padding-right: 10px;
   @media (min-width: 768px) {
     font-size: 32px;
-    line-height:1.2;
+    line-height: 1.2;
     padding-right: 15px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 38px;
+    padding-right: 250px;
   }
 `;
 
@@ -64,8 +76,11 @@ export const Descrp = styled.p`
   line-height: 1.2;
   margin-bottom: 30px;
   margin-top: 25px;
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     margin-bottom: 10;
+  }
+  @media (min-width: 1280px) {
+    padding-right: 70px;
   }
 `;
 
@@ -75,10 +90,13 @@ export const Img = styled.img`
   margin-top: 14px;
   padding-bottom: 90px;
   @media (min-width: 768px) {
-    order:2;
+    order: 2;
     min-width: 350px;
     min-height: 500px;
-  padding-bottom: 0;
+    padding-bottom: 0;
     padding-top: 70px;
+  }
+  @media (min-width: 1280px) {
+    min-width: 550px;
   }
 `;

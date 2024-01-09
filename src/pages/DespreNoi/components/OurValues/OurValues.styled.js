@@ -9,11 +9,23 @@ export const Wrapper = styled.div`
     margin-top: 80px;
     margin-bottom: 80px;
   }
+  @media (min-width: 1280px) {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 `;
 
 export const LeftSide = styled.div`
   @media (min-width: 768px) {
     order: 1;
+  }
+  @media (min-width: 1280px) {
+   
+    padding-right: 40px;
   }
 `;
 
@@ -33,6 +45,10 @@ export const Title = styled.h2`
     padding-right: 25px;
     margin-bottom: 20px;
     font-size: 32px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 38px;
+    padding-right: 150px;
   }
 `;
 
@@ -69,6 +85,9 @@ export const Text = styled.h3`
   color: #7a7a7a;
   margin-bottom: 15px;
   font-weight: 500;
+  @media (min-width: 1280px) {
+    padding-right: 40px;
+  }
 `;
 
 export const Img = styled.img`
@@ -84,5 +103,10 @@ export const Img = styled.img`
     padding-bottom: 0px;
     align-content: center;
     margin-top: 120px;
+  }
+  @media (min-width: 1280px) {
+    min-width: 530px;
+    width: 0%;
+    margin-top: 0px;
   }
 `;

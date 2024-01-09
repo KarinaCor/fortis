@@ -1,4 +1,14 @@
 import styled from "styled-components";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
+export const FaceBookImg = styled(FaFacebook)`
+margin-right: 20px;
+`;
+
+export const InstaImg = styled(FaInstagram)`
+  margin-right: 20px;
+`;
 
 
 export const Wrapper = styled.div`
@@ -16,6 +26,9 @@ export const Adress = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media (min-width: 1280px) {
+    padding-right: 160px;
+  }
 `;
 
 export const Phone = styled.h3`

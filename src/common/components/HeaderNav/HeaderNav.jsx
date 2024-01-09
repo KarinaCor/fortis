@@ -1,17 +1,17 @@
 import React from "react";
 
 import { useMainNav } from "../hooks/useMainNav";
-import * as SC from "../SideMenu/SideMenu.styled"
+import * as SC from "../HeaderNav/HeaderNav.styled";
 
-export const SideMenu = ({ toogleModal, burger }) => {
+export const HeaderNav = () => {
   const mainNav = useMainNav();
 
   return (
-    <SC.Nav className={burger ? "open" : "close"}>
+    <SC.Nav>
       <SC.List>
         {mainNav.map(({ id, href, title }) => (
           <SC.Item key={id}>
-            <SC.StyledLink onClick={toogleModal} to={href}>
+            <SC.StyledLink to={href}>
               {title}
             </SC.StyledLink>
           </SC.Item>

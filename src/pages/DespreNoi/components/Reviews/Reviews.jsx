@@ -24,11 +24,14 @@ export const Reviews = () => {
         </SC.Descrp>
         <SC.Comments>
           <SC.Blocks>
-            <FaStar fill="#f0ad4e" size={20} />
-            <FaStar fill="#f0ad4e" size={20} />
-            <FaStar fill="#f0ad4e" size={20} />
-            <FaStar fill="#f0ad4e" size={20} />
-            <FaStar fill="#f0ad4e" size={20} />
+            <SC.Stars>
+              <FaStar fill="#f0ad4e" size={20} />
+              <FaStar fill="#f0ad4e" size={20} />
+              <FaStar fill="#f0ad4e" size={20} />
+              <FaStar fill="#f0ad4e" size={20} />
+              <FaStar fill="#f0ad4e" size={20} />
+            </SC.Stars>
+
             <SC.Text>
               Am ales Fortis pentru proiectul nostru de locuință modulară și nu
               am putea fi mai încântați de rezultate. De la primele discuții

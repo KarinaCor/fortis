@@ -1,6 +1,4 @@
 import * as SC from "./HeaderLine.styled";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
@@ -11,9 +9,9 @@ export const HeaderLine = () => {
     <>
       <SC.Wrapper>
         <SC.SocialIcons>
-          <FaFacebook fill="#fff" />
-          <FaInstagram fill="#fff" />
-          <FaYoutube fill="#fff" />
+          <SC.FaceBookImg fill="#fff" size={15} />
+          <SC.InstaImg fill="#fff" size={15} />
+          <FaYoutube fill="#fff" size={15} />
         </SC.SocialIcons>
         <SC.Adress>
           <FaPhone fill="#a70101" />

@@ -8,7 +8,7 @@ export const Destribution = () => {
         <SC.RightSide>
           <SC.HeadingTitle>DISTRIBUTIE</SC.HeadingTitle>
           <SC.Span>Distribuție de materiale de construcție</SC.Span>
-          <SC.Title>Apelează la Fortis cu încredere!?</SC.Title>
+          <SC.Title>Apelează la Fortis cu încredere!</SC.Title>
           <SC.Line></SC.Line>
           <SC.Descrp>
             Cu o rețea extinsă de parteneriate strategice și o expertiză solidă

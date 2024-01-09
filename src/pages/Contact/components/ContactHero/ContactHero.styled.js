@@ -12,7 +12,9 @@ export const Wrapper = styled.div`
     min-height: 300px;
     background-position: 91% 0%;
     text-align: center;
-    
+  }
+  @media (min-width: 1280px) {
+    min-height: 400px;
   }
 `;
 
@@ -21,7 +23,13 @@ export const Title = styled.h2`
   font-size: 44px;
   align-items: center;
   text-align: center;
+  padding-top: 120px;
   @media (min-width: 768px) {
     padding-top: 90px;
+  }
+  @media (min-width: 1280px) {
+    text-align: left;
+    padding-top: 170px;
+    padding-left: 130px;
   }
 `;

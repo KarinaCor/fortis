@@ -9,14 +9,24 @@ export const Wrapper = styled.div`
     text-align: center;
     padding-top: 10px;
   }
+  @media (min-width: 1280px) {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+  }
 `;
 
 export const HeadingTitle = styled.h3`
-color: #F2F2F2;
-font-size: 25px;
-font-weight: 900;
-margin-bottom: 15px;
-`
+  color: #f2f2f2;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  @media (min-width: 1280px) {
+    font-size: 30px;
+  }
+`;
 
 export const Span = styled.h3`
 color: #A70101;
@@ -31,6 +41,10 @@ export const Title = styled.h2`
   margin-bottom: 25px;
   @media (min-width: 768px) {
     font-size: 32px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 38px;
+   
   }
 `;
 
@@ -57,6 +71,10 @@ export const Descrp = styled.p`
     padding-right: 150px;
     text-align: center;
   }
+  @media (min-width: 1280px) {
+    padding-left: 280px;
+    padding-right: 280px;
+  }
 `;
 
 export const Blocks = styled.div`
@@ -70,6 +88,9 @@ export const List = styled.ul`
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+  }
+  @media (min-width: 1280px) {
+    flex-wrap: nowrap;
   }
 `;
 

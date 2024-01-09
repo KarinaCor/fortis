@@ -1,9 +1,26 @@
 import styled from 'styled-components'
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
+export const FaceBookImg = styled(FaFacebook)`
+  margin-right: 20px;
+  margin-left: 100px;
+  width: 40px;
+  border-radius: 5px 5px 5px 2px;
+  background-color: #a70101;
+`;
+
+export const InstaImg = styled(FaInstagram)`
+  margin-right: 20px;
+  background-color: #a70101;
+  border-radius: 1px 5px 5px 2px;
+`;
 
 export const Wrapper = styled.div`
 background-color: #414141;
 min-height: 578px;
 padding-left: 10px;
+
 @media(min-width: 768px){
 display: flex;
 align-content: space-between;
@@ -16,6 +33,13 @@ min-height: 350px;
 export const LogoWrap = styled.div`
 
 `
+
+export const Icons = styled.div`
+display: flex;
+align-items: center;
+text-align: center;
+
+`;
 
 export const Img = styled.img`
 width: 160px;
@@ -54,10 +78,13 @@ font-size: 16px;
 color: #FFFF;
 margin-bottom: 17px;
 text-decoration: none;
+padding-right: 30px;
+line-height: 1.2;
 `
 
 export const Link = styled.a`
-
+text-decoration: none;
+color: #fff;
 `
 
 export const ContactWrap = styled.div`

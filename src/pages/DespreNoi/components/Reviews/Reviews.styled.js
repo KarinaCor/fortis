@@ -9,6 +9,12 @@ export const Wrapper = styled.div`
     text-align: center;
     padding-top: 10px;
   }
+  @media (min-width: 1280px) {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 `;
 
 export const Span = styled.h3`
@@ -23,6 +29,9 @@ export const Title = styled.h2`
   font-size: 30px;
   @media (min-width: 768px) {
     font-size: 32px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 38px;
   }
 `;
 
@@ -48,7 +57,11 @@ export const Descrp = styled.p`
     padding-left: 65px;
     padding-right: 65px;
     text-align: justify;
-    margin-top:20px;
+    margin-top: 20px;
+  }
+  @media (min-width: 1280px) {
+  padding-left: 90px;
+  padding-right: 90px;
   }
 `;
 
@@ -60,6 +73,11 @@ export const Comments = styled.div`
   }
 `;
 
+export const Stars = styled.div`
+/* text-align: left;
+align-items: left; */
+`
+
 export const Blocks = styled.div`
   background-color: #7b7c7c;
   padding: 30px 16px 16px 16px;
@@ -68,6 +86,10 @@ export const Blocks = styled.div`
   padding-bottom: 20px;
   @media (min-width: 768px) {
     margin-right: 10px;
+  }
+  @media (min-width: 1280px) {
+    text-align: left;
+   
   }
 `;
 
@@ -86,12 +108,13 @@ export const Text = styled.h3`
 `;
 
 export const Name = styled.h3`
-color: #a70101;
-font-size:16px;
-line-height:1.5;
-padding-top: 25px;
-font-weight: 500;
-`
+  color: #a70101;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-top: 25px;
+  font-weight: 500;
+
+`;
 
 
 

@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
   @media (min-width: 1200px) {
     min-height: 665px;
     background-position: 91% 0%;
+   
   }
 `;
 
@@ -73,4 +74,14 @@ export const Button = styled.button`
     right: 300px;
     bottom: 115px;
   }
+  @media (min-width: 1280px){
+/* margin: 0 auto;
+display: block; */
+
+  }
+`;
+
+export const Div = styled.div`
+  display: flex;
+  justify-content: center;
 `;

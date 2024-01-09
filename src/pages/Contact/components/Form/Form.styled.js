@@ -13,7 +13,13 @@ export const LeftSide = styled.div`
 
 `
 
-export const Map = styled.div``;
+export const Map = styled.div`
+
+`;
+
+export const Iframe = styled.iframe`
+padding-top: 40px;
+`;
 
 export const Img = styled.img`
   width: 100%;

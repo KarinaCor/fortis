@@ -12,8 +12,8 @@ padding-top: 60px;
 display: flex;
 }
 @media(min-width: 1280px) {
-padding-left:50px;
-padding-right: 50px;
+padding-left:70px;
+padding-right: 70px;
 }
 `
 

@@ -1,8 +1,47 @@
 import styled from 'styled-components'
 
-export const MenuButtom = styled.div`
+import { NavLink } from "react-router-dom";
+
+export const StyledLink = styled(NavLink)`
+  text-decoration: none;
+  color: #7b7c7c;
+`;
+
+export const Nav = styled.nav`
+transition: 1000ms linear;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+ background-color: #fff;
+  text-decoration: none;
+  width: 100%;
+  
+  &.open{top:80px;
+   left:0}
+   &.close{top: -100px;
+   left:0}
 
 `;
+
+export const List = styled.ul`
+padding-left: 20px;
+list-style: none;
+text-decoration: none;
+
+`
+
+export const Item = styled.li`
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  padding-bottom: 20px;
+  
+`;
+
+// // export const LogoLink = styled.a`
+
+// // `
 
 // export const Menu = styled.nav`
 //   position: absolute;
@@ -46,37 +85,3 @@ export const MenuButtom = styled.div`
 //     background-position: 90% 50%;
 //   }
 // `;
-
-export const Nav = styled.nav`
-transition: 1000ms linear;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  /* padding-top: 40px;
-  padding-left: 25px; */
-  text-decoration: none;
-  &.open{top:20px;
-   left:0}
-   &.close{top: -100px;
-   left:0}
-
-`;
-
-export const List = styled.ul`
-background-color: green;
-list-style: none;
-text-decoration: none;
-
-`
-
-export const Item = styled.li`
-  
-  text-decoration: none;
-  
-  
-`;
-
-// // export const LogoLink = styled.a`
-
-// // `
