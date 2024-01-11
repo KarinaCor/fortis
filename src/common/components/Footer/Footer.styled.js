@@ -1,19 +1,27 @@
 import styled from 'styled-components'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 export const FaceBookImg = styled(FaFacebook)`
   margin-right: 20px;
   margin-left: 100px;
-  width: 40px;
-  border-radius: 5px 5px 5px 2px;
   background-color: #a70101;
+  border: 8px solid #a70101;
+ 
 `;
 
 export const InstaImg = styled(FaInstagram)`
   margin-right: 20px;
+  border: 8px solid #a70101;
   background-color: #a70101;
-  border-radius: 1px 5px 5px 2px;
+
+`;
+
+export const Youtube = styled(FaYoutube)`
+  border: 8px solid #a70101;
+  background-color: #a70101;
+ 
 `;
 
 export const Wrapper = styled.div`
@@ -31,14 +39,17 @@ min-height: 350px;
 `
 
 export const LogoWrap = styled.div`
-
+align-items: center;
 `
 
 export const Icons = styled.div`
-display: flex;
-align-items: center;
-text-align: center;
-
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+flex-direction: row;
+/* padding-left: 15px; */
 `;
 
 export const Img = styled.img`

@@ -4,7 +4,7 @@ import { FaRegBuilding } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
-import { FaYoutube } from "react-icons/fa";
+
 
 export const Footer = () => {
   return (
@@ -12,12 +12,12 @@ export const Footer = () => {
       <SC.Wrapper>
         <SC.LogoWrap>
           <SC.Img src={IMG.footerLogo} />
+          <SC.Icons>
+            <SC.FaceBookImg fill="#fff" size={15} />
+            <SC.InstaImg fill="#fff" size={15} />
+            <SC.Youtube fill="#fff" size={15} />
+          </SC.Icons>
         </SC.LogoWrap>
-        <SC.Icons>
-          <SC.FaceBookImg fill="#fff" size={15} />
-          <SC.InstaImg fill="#fff" size={15} />
-          <FaYoutube fill="#fff" size={15} />
-        </SC.Icons>
 
         <SC.Blocks>
           <SC.CompanieWrap>
